@@ -1,0 +1,25 @@
+.first-menu {
+    display: flex;
+}
+
+.first-menu li {
+    list-style: none;
+}
+
+.first-menu li a {
+    text-decoration: none;
+    padding-right: 1.5em;
+    color: rgb(97, 248, 177);
+}
+
+.dropdown {
+    color: rgba(137, 218, 129, 0.836) position: absolute;
+    display: none;
+}
+
+.first-menu>li:hover>.dropdown {
+    display: block;
+}
+
+display:
+}
